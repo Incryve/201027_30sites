@@ -21,15 +21,20 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--dark);
+}
+
 @media only screen and (max-width: 768px) {
   a:link {
     /* text-decoration: line-through; */
     color: #fe5f55;
   }
-}
 
-a:visited {
-  color: var(--dark);
+  a:visited {
+    /* text-decoration: line-through; */
+    color: #fe5f55;
+  }
 }
 
 a:hover {
