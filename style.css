@@ -21,6 +21,12 @@ a:link {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 740px) {
+  a:link {
+    text-decoration: line-through;
+  }
+}
+
 a:visited {
   color: var(--dark);
 }
@@ -63,6 +69,10 @@ h3 {
   align-items: center;
   overflow: hidden;
   text-align: center;
+}
+
+.hero_content h3 {
+  margin-top: 20px;
 }
 
 .about_content {
