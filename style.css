@@ -23,7 +23,7 @@ a:link {
 
 @media only screen and (max-width: 768px) {
   a:link {
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     color: #fe5f55;
   }
 }
