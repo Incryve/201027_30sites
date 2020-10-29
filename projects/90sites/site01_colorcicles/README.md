@@ -3,7 +3,7 @@
 
 __________________________________________________________________________________
 
-### Check it out: [http://www.yvesalazar.com/projects/90sites/site01_colorcicles/](url)
+### Check it out [here](http://www.yvesalazar.com/projects/90sites/site01_colorcicles/)
 
 ## Again, why am I doing this?
 <p> I am learning how to code and I felt the need for some practice. Is how they say: the best way to learn is practicing. <br>
