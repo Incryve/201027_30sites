@@ -9,14 +9,14 @@ var options = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
 var playerDecision;
 var compDecision;
-console.log(typeof compDecision);
-console.log(typeof playerDecision);
 
 var btnElement = document.querySelectorAll('.btn');
-console.log(typeof btnElement);
 
 btnElement.forEach(function(button) {
   button.onclick = function start() {
+
+    // here goes the code to "reset" colors (add .normal to main)
+ 
     playerDecision = this.id;
     
     compDecision = options[Math.floor(Math.random()*5)];
@@ -47,8 +47,6 @@ function countdown() {
 
 function displayResults() {
   document.querySelector('.score').innerHTML = 'SHOOT';
-  // document.querySelector('.computer_left .option').id = compDecision;
-  // document.querySelector('.player_right .option').id = playerDecision;
 
   document.querySelector(`.player_right .${playerDecision}`).style.display = 'block';
   document.querySelector(`.computer_left .${compDecision}`).style.display = 'block';
@@ -83,6 +81,5 @@ function displayResults() {
       document.querySelector('.score').innerHTML = 'LOSE';
     }
 
-    // btnElement.onclick = start();
   }, 400);
 };
