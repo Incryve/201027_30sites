@@ -30,6 +30,16 @@
   color: var(--burntsiena);
 }
 
+.main_lose {
+  background-color: var(--amaranth);
+  color: var(--panache);
+}
+
+.main_win {
+  background-color: var(--charlotte);
+  color: var(--catalina);
+}
+
 .score {
   width: 100%;
   min-width: 300px;

@@ -10,13 +10,17 @@ var options = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 var playerDecision;
 var compDecision;
 
+var mainElement = document.querySelector('.main');
 var btnElement = document.querySelectorAll('.btn');
 
 btnElement.forEach(function(button) {
   button.onclick = function start() {
 
     // here goes the code to "reset" colors (add .normal to main)
- 
+    mainElement.classList.remove('main_lose');
+    mainElement.classList.remove('main_win');
+    mainElement.classList.add('main');
+
     playerDecision = this.id;
     
     compDecision = options[Math.floor(Math.random()*5)];
@@ -59,26 +63,37 @@ function displayResults() {
       document.querySelector('.score').innerHTML = 'TIE';
     } else if (playerDecision === 'rock' && compDecision === 'scissors') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'rock' && compDecision === 'lizard') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'paper' && compDecision === 'rock') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'paper' && compDecision === 'spock') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'scissors' && compDecision === 'paper') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'scissors' && compDecision === 'lizard') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'lizard' && compDecision === 'paper') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'lizard' && compDecision === 'spock') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'spock' && compDecision === 'rock') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else if (playerDecision === 'spock' && compDecision === 'scissors') {
       document.querySelector('.score').innerHTML = 'WIN';
+      mainElement.classList.toggle('main_win');
     } else {
       document.querySelector('.score').innerHTML = 'LOSE';
+      mainElement.classList.toggle('main_lose');
     }
 
   }, 400);
