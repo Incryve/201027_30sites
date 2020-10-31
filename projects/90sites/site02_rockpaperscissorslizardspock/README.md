@@ -19,5 +19,5 @@ a vanilla javascript rock, paper, scissors, lizard, spock.</p>
 <p> 1. Template literals: It help me when I needed to pass a variable as a string at the displayresults(). <br>
 It presents with a different syntax than the normal strings as it uses a `` instead of the normal ''. <br>
 2. Foreach and arrow function: as I wanted to select all the buttons, I used querySelectorAll wich returns an array. <br>
-So to iterate through it, I used the foreach method. That way I could access each button and their ids. 
+So to iterate through it, I used the foreach method. That way I could access each button and their ids. <br>
 3. I also learned about arrow functions and tried it for the first time. I'll try to practice them a little more. </p>  
