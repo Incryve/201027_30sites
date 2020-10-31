@@ -22,7 +22,6 @@ btnElement.forEach(function(button) {
     mainElement.classList.add('main');
 
     playerDecision = this.id;
-    
     compDecision = options[Math.floor(Math.random()*5)];
 
     // document.querySelector('.option').style.display = 'none';
@@ -54,9 +53,6 @@ function displayResults() {
 
   document.querySelector(`.player_right .${playerDecision}`).style.display = 'block';
   document.querySelector(`.computer_left .${compDecision}`).style.display = 'block';
-  
-  console.log(compDecision);
-  console.log(playerDecision);
 
   setTimeout(function() {
     if (playerDecision === compDecision) {

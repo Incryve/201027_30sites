@@ -45,7 +45,12 @@
   min-width: 300px;
   text-align: center;
   font-size: 4em;
-  
+}
+
+@media only screen and (max-width: 767px) {
+  .score {
+    line-height: 1;
+  }
 }
 
 .names {
@@ -60,7 +65,7 @@
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
@@ -68,6 +73,7 @@
 .computer {
   height: 60%;
   text-align: right;
+  right: 0;
 }
 
 .computer_left {
@@ -79,7 +85,9 @@
 
 .player {
   height: 60%;
+  right: 0;
 }
+
 
 .countdown {
   height: 60%;
