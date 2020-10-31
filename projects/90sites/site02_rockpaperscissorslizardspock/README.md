@@ -10,8 +10,9 @@ ________________________________________________________________________________
 So I challenged myself to do so on a daily basis by coding a website per day during the next 3 months. </p>
 
 ### Why I chose to do this one?
-<p>I needed a app to help me and my significant other to make housing choices, like do the dishes. When I saw Jennifer's project <br>
-I understood the logic behind it and challenged myself to make it a little more complicated. So there it is: <br>
+<p>I needed a app to help me and my significant other to make housing choices, like do the dishes. <br>
+When I saw [Jennifer's project] (https://jenniferdewalt.com/rock_paper_scissors.html) <br>
+I understood the logic behind it and challenged myself to remake it with a twist. So there it is: <br>
 a vanilla javascript rock, paper, scissors, lizard, spock.</p>
 
 ### What I learned?
