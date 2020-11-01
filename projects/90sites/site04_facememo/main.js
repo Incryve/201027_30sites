@@ -4,13 +4,8 @@ let hasFlippedCard = false;
 let fisrtCard, secondCard;
 
 function flipCard() {
-  this.classList.add('flip');
+  this.classList.toggle('flip');
 }
-
-// if (hasFlippedCard) {
-//   hasFlippedCard = true;
-//   firstCard = this;
-// }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 

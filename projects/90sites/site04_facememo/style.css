@@ -44,7 +44,7 @@ body {
 }
 
 /* adds a 'flip' effect on the card */
-.flip, .flip-card-inner {
+.flip {
   transform: rotateY(180deg);
 }
 
@@ -55,7 +55,6 @@ body {
   padding: 5px;
   position: absolute;
   border-radius: 5px;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
