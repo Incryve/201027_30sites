@@ -110,5 +110,9 @@ h3 {
   border-top: 0.5px solid #121212;
 }
 
+.projects_table-col-1 {
+  min-width: 50px;
+}
+
 
 
