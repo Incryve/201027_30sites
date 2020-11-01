@@ -1,4 +1,4 @@
-###### 90 sites in 90 days 
+###### My first 30 sites
 ## Site03 - Digital clock (with dark-mode!)
 
 __________________________________________________________________________________
@@ -7,7 +7,7 @@ ________________________________________________________________________________
 
 ### Again, why am I doing this?
 <p> I am learning how to code and I felt the need for some practice and is how they say: the best way to learn is practicing. <br>
-So I challenged myself to do so on a daily basis by coding a website per day during the next 3 months. </p>
+So I challenged myself to learn Javascript ES6+, React and Node within my first 30 websites. </p>
 
 ### Why I chose to do this one?
 <p>I always useful to have a clock at hand and seemed easy enough for a weekend job. <br>
