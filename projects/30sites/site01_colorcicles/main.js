@@ -6,9 +6,9 @@ btnElement.onclick = function newCircle() {
   var circleElement = document.createElement('div');
   circleElement.setAttribute('class', 'circle');
 
-  circleElement.style.width = "100px";
-  circleElement.style.height = "100px";
-  circleElement.style.borderRadius = "50px";
+  circleElement.style.width = "50px";
+  circleElement.style.height = "50px";
+  circleElement.style.borderRadius = "25px";
   circleElement.style.backgroundColor = '#900C3F';
   
   circleElement.onmouseover = function() {
