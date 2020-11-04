@@ -1,0 +1,39 @@
+:root {
+  --coral: #fe5f55;
+  --dark: #121212;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 8em;
+}
+
+.cv_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.far {
+  color: var(--coral);
+}
+
+a:visited {
+  color: var(--coral);
+}
+
+p {
+  padding: 10px;
+  color: var(--dark);
+}
