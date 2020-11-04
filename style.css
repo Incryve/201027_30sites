@@ -65,7 +65,7 @@ h3 {
 
 .hero_content {
   width: 100%;
-  height: calc(90vh - 26px);
+  height: calc(90vh - 50px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,7 +91,7 @@ h3 {
 }
 
 .projects {
-  height: calc(95vh - 26px);
+  height: calc(95vh - 30px);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -122,7 +122,7 @@ footer {
 .fas, 
 .fab,
 .far {
-  padding: 5px;
+  padding: 8px;
 }
 
 
