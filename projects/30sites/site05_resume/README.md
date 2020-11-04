@@ -22,5 +22,7 @@ my social networks.
 They offer cool icons so you can copy paste them to your website. Is very easy to use: just import<br>
 the script to your html and paste the code where you want the icon to be. <br>
 2. I also learn how to make those icons clickable and to direct a link to download a PDF file! <br>
+Just add "download" as an atribute to the anchor html tag. <br>
+Also, to make an anchor "send" an email, we use the "mailto:" atribute. <br>
 Maybe not so much knowledge for today, but at least I can try that job offer I want so much!
 </p>  
