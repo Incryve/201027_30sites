@@ -42,7 +42,6 @@ a:hover {
 .navbar {
   overflow: hidden;
   margin-right: 30px;
-
 }
 
 .navbar a {
@@ -66,7 +65,7 @@ h3 {
 
 .hero_content {
   width: 100%;
-  height: 90vh;
+  height: calc(90vh - 26px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,6 +91,7 @@ h3 {
 }
 
 .projects {
+  height: calc(95vh - 26px);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -112,6 +112,17 @@ h3 {
 
 .projects_table-col-1 {
   min-width: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.fas, 
+.fab,
+.far {
+  padding: 5px;
 }
 
 
