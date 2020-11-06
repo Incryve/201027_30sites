@@ -3,7 +3,7 @@
 
 __________________________________________________________________________________
 
-#### Check it out [here](http://www.yvesalazar.com/projects/90sites/site03_clock/index.html)
+#### Check it out [here](https://www.yvesalazar.com/projects/90sites/site03_clock/index.html)
 
 ### Again, why am I doing this?
 <p> I am learning how to code and I felt the need for some practice and is how they say: the best way to learn is practicing. <br>
