@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
   color: var(--dark);
   background-color: var(--light);
 }
