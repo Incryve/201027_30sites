@@ -23,9 +23,6 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--hover);
-}
 
 a:visited {
   color: var(--visited);
@@ -35,12 +32,15 @@ a:visited {
   a:link {
     color: var(--default) !important;
   }
-
+  
   a:visited {
     color: var(--default) !important;
   }
 }
 
+a:hover {
+  color: var(--hover);
+}
 
 .navbar {
   overflow: hidden;
