@@ -1,7 +1,8 @@
 :root {
-  --dark: #121212;
-  --light: #eaeaea;
-  --coral: #fe5f55;
+  --dark: #333d29;
+  --light: #dad7cd;
+  --hover: #90be6d;
+  --visited: #588157;
 }
 
 * {
@@ -27,11 +28,11 @@ a:visited {
 
 @media only screen and (max-width: 768px) {
   a:link {
-    color: #fe5f55 !important;
+    color: var(--hover) !important;
   }
 
   a:visited {
-    color: #fe5f55 !important;
+    color: var(--hover) !important;
   }
 }
 
@@ -41,7 +42,8 @@ a:hover {
 
 .navbar {
   overflow: hidden;
-  margin-right: 30px;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 .navbar a {
@@ -107,7 +109,7 @@ h3 {
 
 .projects_table {
   border-spacing: 15px;
-  border-top: 0.5px solid #121212;
+  border-top: 0.5px solid var(--dark);
 }
 
 .projects_table-col-1 {
