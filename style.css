@@ -19,8 +19,12 @@ body {
 }
 
 a:link {
-  color: var(--default);
+  color: var(--dark);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover);
 }
 
 a:visited {
@@ -29,17 +33,14 @@ a:visited {
 
 @media only screen and (max-width: 768px) {
   a:link {
-    color: var(--hover) !important;
+    color: var(--default) !important;
   }
 
   a:visited {
-    color: var(--hover) !important;
+    color: var(--default) !important;
   }
 }
 
-a:hover {
-  color: var(--hover);
-}
 
 .navbar {
   overflow: hidden;
@@ -56,11 +57,12 @@ a:hover {
 
 h1 {
   font-size: 5em;
-  line-height: 2;
+  line-height: 1;
   font-weight: 400;
 }
 
 h2 {
+  padding-top: 30px;
   font-size: 1em;
   font-weight: 300;
 }
