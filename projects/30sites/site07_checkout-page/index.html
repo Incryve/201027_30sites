@@ -25,74 +25,76 @@
             Coffee Masters
         </h1>
     </nav>
-        <div class="checkout-page">
-            <section class="order section">
-                <h2 class="section-title">ITEMS</h2>
-                <ul class="items">
-                    <li class="item">
-                    <div class="item-quantity">1x</div>
-                    <div class="item-name">Cappucino</div> 
-                    <div class="item-price">$6.00</div>
-                    <ul class="item-options">
-                            <li class="item-option">Light Foam</li>
-                    </ul> 
-                    </li>
-                    <li class="item">
+        <div class="page">
+            <div class="page-checkout">
+                <section class="order section">
+                    <h2 class="section-title">ITEMS</h2>
+                    <ul class="items">
+                        <li class="item">
                         <div class="item-quantity">1x</div>
                         <div class="item-name">Cappucino</div> 
-                        <div class="item-price">$7.90</div>
+                        <div class="item-price">$6.00</div>
                         <ul class="item-options">
-                            <li class="item-option">Almond Milk</li>
-                            <li class="item-option">Double Espresso Shot</li>
+                                <li class="item-option">Light Foam</li>
                         </ul> 
-                    </li>
-                    <li class="item">
-                        <div class="item-quantity">1x</div>
-                        <div class="item-name">Croissant</div> 
-                        <div class="item-price">$5.37</div>
-                        <ul class="item-options">
-                            <li class="item-option">Butter</li>
-                        </ul> 
-                    </li>
-                </ul>
+                        </li>
+                        <li class="item">
+                            <div class="item-quantity">1x</div>
+                            <div class="item-name">Cappucino</div> 
+                            <div class="item-price">$7.90</div>
+                            <ul class="item-options">
+                                <li class="item-option">Almond Milk</li>
+                                <li class="item-option">Double Espresso Shot</li>
+                            </ul> 
+                        </li>
+                        <li class="item">
+                            <div class="item-quantity">1x</div>
+                            <div class="item-name">Croissant</div> 
+                            <div class="item-price">$5.37</div>
+                            <ul class="item-options">
+                                <li class="item-option">Butter</li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </section>
+                <section class="payment">
+                    <div class="name section">
+                        <h2 class="section-title">NAME</h2>
+                        <div class="input">
+                            <label class="user-input-label" for="name">Name for order</label>
+                            <input type="text" class="user-input" id="name">
+                        </div>
+                    </div>
+                    <div class="card section">
+                        <h2 class="section-title">PAYMENT</h2>
+                        <div class="input">
+                            <label class="user-input-label" for="card">Card number</label>
+                            <input type="number" class="user-input" id="card">
+                        </div>
+                        <div class="input">
+                            <label class="user-input-label" for="ccv">CCV number</label>
+                            <input type="number" class="user-input" id="ccv">
+                        </div>
+                    </div>          
+                </section>
+            </div>
+            <section class="total">
+                <table class="total-table">
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$19.27</td>
+                    </tr>
+                    <tr>
+                        <td>Tax:</td>
+                        <td>$0.96</td>
+                    </tr>
+                    <tr class="total-final">
+                        <td>Total:</td>
+                        <td>$20.23</td>
+                    </tr>
+                </table>
+                <button type="buttton" class="checkout">Place order</button>
             </section>
-            <section class="payment">
-                <div class="name section">
-                    <h2 class="section-title">NAME</h2>
-                    <div class="input">
-                        <label class="user-input-label" for="name">Name for order</label>
-                        <input type="text" class="user-input" id="name">
-                    </div>
-                </div>
-                <div class="card section">
-                    <h2 class="section-title">PAYMENT</h2>
-                    <div class="input">
-                        <label class="user-input-label" for="card">Card number</label>
-                        <input type="number" class="user-input" id="card">
-                    </div>
-                    <div class="input">
-                        <label class="user-input-label" for="ccv">CCV number</label>
-                        <input type="number" class="user-input" id="ccv">
-                    </div>
-                </div>          
-            </section>
-        </div>
-    <section class="total">
-        <table class="total-table">
-            <tr>
-                <td>Subtotal</td>
-                <td>$19.27</td>
-            </tr>
-            <tr>
-                <td>Tax:</td>
-                <td>$0.96</td>
-            </tr>
-            <tr class="total-final">
-                <td>Total:</td>
-                <td>$20.23</td>
-            </tr>
-        </table>
-        <button type="buttton" class="checkout">Place order</button>
-    </section>
+        </div>   
 </body>
 </html>

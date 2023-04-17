@@ -31,11 +31,16 @@ body {
 
 /* ----- Page ----- */
 
-.checkout-page {
+.page {
+    margin: 50px;
+    display: grid;
+}
+
+.page-checkout {
     display: flex;
     flex-direction: row;
-    padding: 20px;
-    justify-content: space-between;
+    padding: 0px;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
@@ -54,7 +59,6 @@ body {
     font-size: 16px;
 }
 
-
 /* ----- Items ----- */
 
 .item {
@@ -65,6 +69,7 @@ body {
     grid-template-columns: 1fr 6fr 1fr;
     row-gap: 10px;
     padding: 10px 0;
+    border-bottom: 1.5px solid #ddb892;
 }
 
 .item-quantity {
@@ -107,7 +112,7 @@ body {
     border-radius: 10px;
     font-size: 16px;
     width: 100%;
-    border: 2px solid #885a2d;
+    border: 1.5px solid #885a2d;
 }
 
 .user-input-label {
@@ -129,6 +134,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .total-table {
@@ -147,3 +153,12 @@ body {
 
 /* ----- Place order ----- */
 
+.checkout {
+    background-color: #deb993;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin: 0 10px;
+}
