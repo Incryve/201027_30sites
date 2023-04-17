@@ -9,6 +9,9 @@ body {
     padding: 0;
 }
 
+
+/* ----- Header ----- */
+
 .header-nav {
     background-color: #43281c;
     color: #fbf2c0;
@@ -25,13 +28,19 @@ body {
     top: 4px;
 }
 
-.checkout {
+
+/* ----- Page ----- */
+
+.checkout-page {
     display: flex;
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
     gap: 20px;
 }
+
+
+/* ----- Section ----- */
 
 .section {
     background-color: #eee1d5;
@@ -44,6 +53,9 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+
+
+/* ----- Items ----- */
 
 .item {
     display: grid;
@@ -70,8 +82,8 @@ body {
 }
 
 .item-options {
-    list-style: none;
     grid-area: item-options;
+    list-style: none;
     font-size: 14px;
     color: #b08968;
     padding-left: 0;
@@ -79,4 +91,31 @@ body {
 
 .item-option {
     margin-bottom: 5px;
+}
+
+
+
+/* ----- User Inputs ----- */
+
+.input {
+    position: relative;
+    padding: 10px;
+}
+
+.user-input {
+    background-color: #eee1d5;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #885a2d;
+}
+
+.user-input-label {
+    background-color: #eee1d5;
+    color: #885a2d;
+    font-size: 10px;
+    position: absolute;
+    left: 23px;
+    top: 4px;
+    padding: 0 2px;
 }
