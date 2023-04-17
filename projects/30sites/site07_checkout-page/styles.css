@@ -119,3 +119,31 @@ body {
     top: 4px;
     padding: 0 2px;
 }
+
+
+/* ----- Totals ----- */
+
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.total-table td {
+    padding: 10px 0;
+}
+
+.total-final {
+    font-weight: 600;
+}
+
+
+/* ----- Place order ----- */
+
