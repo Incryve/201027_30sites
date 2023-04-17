@@ -24,3 +24,9 @@ body {
     position: relative;
     top: 4px;
 }
+
+.checkout {
+    display: flex;
+    flex-direction: row;
+    
+}
