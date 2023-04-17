@@ -37,11 +37,46 @@ body {
     background-color: #eee1d5;
     padding: 20px;
     width: 100%;
-
 }
 
 .section-title {
     color: #885a2d;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
+}
+
+.item {
+    display: grid;
+    grid-template-areas: 
+        "item-quantity item-name item-price"
+        "item-quantity item-options item-price";
+    grid-template-columns: 1fr 6fr 1fr;
+    row-gap: 10px;
+    padding: 10px 0;
+}
+
+.item-quantity {
+    grid-area: item-quantity;
+}
+
+.item-name {
+    grid-area: item-name;
+    font-weight: 600;
+}
+
+.item-price {
+    grid-area: item-price;
+    font-weight: 600;
+}
+
+.item-options {
+    list-style: none;
+    grid-area: item-options;
+    font-size: 14px;
+    color: #b08968;
+    padding-left: 0;
+}
+
+.item-option {
+    margin-bottom: 5px;
 }
