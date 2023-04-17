@@ -28,5 +28,20 @@ body {
 .checkout {
     display: flex;
     flex-direction: row;
-    
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section {
+    background-color: #eee1d5;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.section-title {
+    color: #885a2d;
+    font-weight: 300;
+    font-size: 16px;
 }
